@@ -1,0 +1,36 @@
+nav{
+    height: 11rem;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.container {
+
+ul{
+    line-height: 11rem;
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    li{
+        padding: 0 1.5rem;
+        margin: 0;
+        font-size: 0.625rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: #222222;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        span{
+            font-size: 1.5rem;
+            letter-spacing: 0.6rem;
+            font-weight: 300;
+            }
+        }
+    }
+}

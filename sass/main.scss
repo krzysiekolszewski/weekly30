@@ -4,7 +4,10 @@
 @import "text";
 @import "portfolio";
 @import "buttons";
-
+@import "references";
+@import "map";
+@import "footer";
+@import "nav";
 
 
 *{
@@ -14,5 +17,9 @@
 
 .container{
   width: 100%;
-  max-width: 1110px;
+  max-width: 1010px;
+}
+
+body{
+    background-color: #efeee9;
 }

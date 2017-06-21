@@ -1,0 +1,47 @@
+#map{
+    background-color: #353535;
+    display: flex;
+    justify-content: space-between;
+
+
+    .info{
+        color: white;
+        padding-right: 15rem;
+
+
+        p{
+            font-size: 1rem;
+        }
+
+        .contact{
+            h1{
+                font-size: 1rem;
+            }
+        }
+
+        .first{
+            padding: 2rem 0;
+        }
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+// code snippet from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ - responsive google map
+    .map {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
