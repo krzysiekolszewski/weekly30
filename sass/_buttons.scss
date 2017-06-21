@@ -1,0 +1,29 @@
+#buttons{
+    border: 1px solid black;
+    .articles{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+    img{
+    width: 100%;
+    height: auto;
+    }
+
+    article{
+        width: 50%;
+        font-weight: 300;
+        padding-top: 3rem;
+        h1{
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 0.85rem;
+            font-weight: 300;
+        }
+
+        p{
+            font-size: 0.85rem;
+
+        }
+    }
+}

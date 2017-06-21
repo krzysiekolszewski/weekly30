@@ -1,0 +1,50 @@
+#text{
+    background-color: #efeee9;
+    padding: 11rem;
+}
+.text_cont{
+    width: 100%;
+    max-width: 730px;
+}
+.some_text{
+    background-color: white;
+    text-align: center;
+    padding: 100px 0;
+    // margin: 11rem;
+
+    h1{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300;
+        color: #686868;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.25rem;
+        font-weight: 300;
+        text-align: left;
+        padding: 5rem 0;
+    }
+
+    button{
+        width: 13rem;
+        height: 3.75rem;
+        border: 2px solid black;
+        background-color: white;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+}
+
+#some_text{
+    background-color: #efeee9;
+    padding: 11rem;
+
+    p{
+        font-size: 2.1rem;
+        text-align: center;
+        font-weight: 300;
+    }
+}
