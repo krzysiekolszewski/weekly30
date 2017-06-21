@@ -1,12 +1,26 @@
 #references{
     .row{
         display: flex;
-        padding: 6.25rem 0;
+        flex-direction: column;
+        @include desktop{
+            flex-direction: row;
+            padding: 6.25rem 0;
+        };
+
         .col-4{
-            background-color: white;
-            width: 30%;
+
             text-align: center;
             padding: 3rem;
+            width: 100%;
+            border-top: 5px solid black;
+
+            @include desktop{
+                border-top: none;
+                background-color: white;
+                width: 30%;
+            };
+
+
 
             h1{
                 font-size: 1.1rem;
@@ -15,6 +29,10 @@
             p{
                 padding: 3rem 0;
                 font-size: 1rem;
+                text-align: justify;
+                @include desktop{
+                    text-align: center;
+                };
             }
         }
     }

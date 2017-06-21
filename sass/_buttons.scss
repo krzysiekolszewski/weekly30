@@ -1,35 +1,84 @@
 #buttons{
-    .row{
-        background-color: white;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    #button{
+        width: 100%;
+        height: auto;
+        @include desktop{
+            display: none;
+        };
     }
+    .row{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        @include desktop{
+            flex-direction: row;
+            align-items: center;
+        };
+
+        .image{
+            img{
+                display: none;
+                @include desktop{
+                    display: flex;
+                    width: 100%;
+                    height: auto;
+                };
+
+            }
+        }
+
+    }
+
     .articles{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    img{
-        width: 100%;
-        height: auto;
+
+    .art_1{
+        padding: 5rem 0;
+        @include desktop{
+            padding: 0;
+        };
     }
     .art_2{
-        padding: 3rem 0;
+        padding: 5rem 0;
     }
 
+    .art_3{
+        padding: 5rem 0;
+        @include desktop{
+            padding: 0;
+        };
+    }
+
+
     article{
-        width: 50%;
         font-weight: 300;
+        text-align: center;
+        @include desktop{
+            width: 50%;
+            text-align: left;
+        };
         h1{
             text-transform: uppercase;
             letter-spacing: 5px;
-            font-size: 0.85rem;
-            font-weight: 300;
+            font-size: 5rem;
+            @include desktop{
+                font-size: 0.85rem;
+                font-weight: 300;
+            };
+
         }
 
         p{
-            font-size: 0.85rem;
+            font-size: 3rem;
+            padding-top: 2rem;
+            @include desktop{
+                font-size: 0.85rem;
+                padding-top: 0;
+
+            };
 
         }
     }

@@ -1,16 +1,21 @@
 #text{
     background-color: #efeee9;
-    padding: 11rem;
+    @include desktop{
+        padding: 11rem;
+    };
 }
 .text_cont{
-    width: 100%;
-    max-width: 730px;
+    padding: 2rem;
+    @include desktop{
+        width: 100%;
+        max-width: 730px;
+    };
+
 }
 .some_text{
     background-color: white;
     text-align: center;
     padding: 100px 0;
-    // margin: 11rem;
 
     h1{
         font-size: 2.5rem;
@@ -29,12 +34,18 @@
     }
 
     button{
-        width: 13rem;
-        height: 3.75rem;
         border: 2px solid black;
         background-color: white;
         text-transform: uppercase;
-        font-size: 1.1rem;
+        width: 25rem;
+        height: 5rem;
+        font-size: 3rem;
+        @include desktop{
+            width: 13rem;
+            height: 3.75rem;
+            font-size: 1.1rem;
+        };
+
     }
 }
 
