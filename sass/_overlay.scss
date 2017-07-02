@@ -1,0 +1,35 @@
+.overlay {
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    .fa-times{
+        font-size: 5rem;
+        position:absolute;
+        right: 50px;
+        top: 50px;
+    }
+
+    ul{
+        padding-top: 10vh;
+        list-style-type: none;
+        font-size: 3rem;
+        li{
+            padding-top: 5rem;
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: black;
+                letter-spacing: 1rem;
+            }
+        }
+
+
+    }
+}
